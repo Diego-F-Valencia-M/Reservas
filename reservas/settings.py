@@ -131,3 +131,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
 LOGIN_REDIRECT_URL = '/panel/'
+LOGOUT_REDIRECT_URL = '/login/'
